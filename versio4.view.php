@@ -11,21 +11,11 @@
 <body>
 <header>
 
+    <h2><?= $person['name'] ;?></h2>
+
     <ul>
-
-        <?php foreach ($users as $user) : ?>
-            <li><?=$user; ?></li>
-        <?php endforeach; ?>
-
-
-
-
-<!--        --><?php
-//        foreach ($users as $user) {
-////            echo '<li>' . $user . ' </li> ';
-//            echo "<li>$user</li>";
-//        }
-//        ?>
+        <li>Ciutat: <?= $person['city'] ;?></li>
+        <li>Sexe: <?= $person['gender'] ;?></li>
     </ul>
 
 </header>
