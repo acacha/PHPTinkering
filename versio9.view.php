@@ -6,21 +6,15 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
 </head>
 <body>
-<header>
 
-    <?php foreach ($persons as $person) : ?>
-        <h2><?= $person->name ;?></h2>
-
-        <ul>
-            <li>Ciutat: <?= $person->city ;?></li>
-            <li>Sexe: <?= $person->gender ;?></li>
-        </ul>
+<ul>
+    <?php foreach ($tasks as $task) : ?>
+        <li><?= $task->name ?></li>
     <?php endforeach;?>
 
+</ul>
 
-</header>
 </body>
 </html>
