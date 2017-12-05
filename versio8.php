@@ -13,6 +13,7 @@ try {
 } catch (PDOException $e){
     die('Error connecting: ' . $e->getMessage() );
 }
+//dd($pdo);
 
 $statement = $pdo->prepare('SELECT * from tasks');
 

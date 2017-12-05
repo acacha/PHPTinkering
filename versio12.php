@@ -7,7 +7,7 @@ $tasks = $query->fetchAll('tasks');
 
 require 'versio12.view.php';
 
-//require 'models/Patatas.php';
+//require 'models/Patata.php';
 //require 'bootstrap/bootstrap.php';
 //
 //$tasks = $query->fetchAll('patatas');
